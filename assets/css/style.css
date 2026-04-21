@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+/* variables for colors */
+:root {
+  --text: #000000;
+  --link: #000000;
+
+  --hover: #d4cec7;
+
+  --bg: #ffffff;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: serif;
+}
+
+img {
+  max-width:100%;
+}
+
+button {
+  font-family: inherit;
+  border:0;
+  padding:0;
+  background:transparent;
+  cursor:pointer;
+}
+
+nav {
+  border:1px solid;
+  padding:3px;
+  position:fixed;
+  background-color: var(--bg);
+}
+
+nav ul {
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+.nav-links {
+  display:none;
+}
+
+.nav-links.active {
+  display:block;
+}
+
+main {
+  margin-left:200px;
+}
+
