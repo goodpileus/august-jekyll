@@ -12,5 +12,5 @@ cv and statement of intent available upon request<br>
 august@mound.info
 </p>
 
-<img src="/assets/img/a_neuscheler_rivergrass.jpg">
+<img src="{{ site.baseurl }}/assets/img/a_neuscheler_rivergrass.jpg">
 
