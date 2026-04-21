@@ -28,6 +28,7 @@ button {
   padding:0;
   background:transparent;
   cursor:pointer;
+  font-size: inherit;
 }
 
 nav {
@@ -35,6 +36,13 @@ nav {
   padding:3px;
   position:fixed;
   background-color: var(--bg);
+  text-transform: uppercase;
+  font-size: 90%;
+}
+
+a {
+  color:var(--link);
+  text-decoration: none;
 }
 
 nav ul {
