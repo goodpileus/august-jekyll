@@ -52,3 +52,12 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("orientationChange", lazyload);
   }
 });
+
+var pathname = window.location.pathname;
+
+$("nav a").each(function(index) {
+  if (pathname === $(this).attr('href') ) {
+    $(this).addClass("current");
+    $(this).attr('aria-current', 'page');
+  }
+});

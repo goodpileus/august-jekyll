@@ -6,7 +6,9 @@
   {% assign pages = site.pages | sort:"order" | reverse %}
   {% for page in pages %}
     {% if page.layout == "page" %}
-      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+      <li {% if page.url contains nav.url or page.path contains nav.path %} class="active" aria-current="page" {% endif %}>
+        <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+      </li>
     {% endif %}
   {% endfor %}
   </ul>

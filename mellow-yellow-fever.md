@@ -5,27 +5,29 @@ draft: false
 order: 1
 ---
 
-<img src="{{ site.baseurl }}/assets/img/myf/myf_01.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_02.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_03.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_04.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_05.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_06.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_07.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_08.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_09.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_10.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_11.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_12.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_13.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_14.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_15.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_16.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_17.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_18.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_19.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_20.jpg">
-<img src="{{ site.baseurl }}/assets/img/myf/myf_21.jpg">
+<div class="horizontal">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_01.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_02.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_03.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_04.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_05.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_06.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_07.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_08.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_09.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_10.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_11.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_12.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_13.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_14.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_15.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_16.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_17.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_18.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_19.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_20.jpg">
+    <img src="{{ site.baseurl }}/assets/img/myf/myf_21.jpg">
+</div>
 
 <p>
 MELLOW YELLOW FEVER<br><br>
