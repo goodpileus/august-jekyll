@@ -41,6 +41,7 @@ nav {
   background-color: var(--bg);
   text-transform: uppercase;
   font-size: 90%;
+  max-width: 200px;
 }
 
 a {
@@ -51,6 +52,9 @@ a {
 
 nav a {
   text-decoration: none;
+  text-indent: 2rem hanging;
+  display: block;
+  /* margin-top:.5rem; */
 }
 
 nav ul {
@@ -68,7 +72,7 @@ nav ul {
 }
 
 main {
-  margin-left:200px;
+  margin-left:calc(200px + 1rem);
 }
 
 video {
