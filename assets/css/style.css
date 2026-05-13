@@ -141,3 +141,39 @@ video {
 .horizontal img:last-child {
   padding-right:1rem;
 }
+
+@media screen and (max-width:800px) {
+  html, body {
+    font-size: 100%;
+  }
+
+  nav {
+    /* left:50%;
+    translate:-50% 0; */
+    font-size: 110%;
+    width:auto;
+    max-width: 100%;
+    position: relative;
+    display: inline-block;
+  }
+
+  nav.active {
+    width:100%;
+  }
+
+  nav a {
+    margin-top:.5rem;
+  }
+
+  main {
+    /* padding-top:2rem; */
+    margin-left:0;
+  }
+
+  .horizontal {
+    flex-direction: column;
+    height:auto;
+    margin-top:1rem;
+  }
+  
+}

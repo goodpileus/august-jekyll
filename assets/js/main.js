@@ -1,5 +1,6 @@
 $(".name-btn").click(function(){
   $(".nav-links").toggleClass('active');
+  $("nav").toggleClass('active');
 });
 
 // --- lazy load
