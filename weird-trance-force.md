@@ -1,5 +1,6 @@
 ---
 layout: page
+style: horizontal
 title:  "Weird Trance Force"
 draft: false
 order: 3
@@ -30,9 +31,11 @@ order: 3
     <img src="{{ site.baseurl }}/assets/img/wtf/wtf_sara7.jpg">
     <img src="{{ site.baseurl }}/assets/img/wtf/wtf_sara8.jpg">
     <img src="{{ site.baseurl }}/assets/img/wtf/wtf_torch1.jpg">
-</div>
 
-<p>
-Weird Trance Force was a show by A. Neuscheler and S. Haley in the spring of 2013, full of hope for the future.
-</p>
+    <div class="chunk">
+        <p>
+        Weird Trance Force was a show by A. Neuscheler and S. Haley in the spring of 2013, full of hope for the future.
+        </p>
+    </div>
+</div>
 

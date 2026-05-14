@@ -1,6 +1,7 @@
 ---
 layout: page
-title:  "Horror Movie"
+style: horizontal
+title: "Horror Movie"
 draft: false
 order: 7
 ---
@@ -22,9 +23,12 @@ order: 7
     <img src="{{ site.baseurl }}/assets/img/horrormovie/horrormovie_14.jpg">
     <img src="{{ site.baseurl }}/assets/img/horrormovie/horrormovie_15.jpg">
     <img src="{{ site.baseurl }}/assets/img/horrormovie/horrormovie_16.jpg">
+    <div class="chunk">
+    <p>
+    Horror Movie Right There On My TV was a solo show at TCB Gallery in Melbourne in 2019
+    </p>
+    </div>
+    
 </div>
 
-<p>
-Horror Movie Right There On My TV was a solo show at TCB Gallery in Melbourne in 2019
-</p>
 

@@ -7,9 +7,15 @@
   
   {% include nav.html %}
 
-  <main>
-  {{ content }}
+  {% if page.style == "horizontal" %}
+  <main class="horizontal">
+    {{ content }}
   </main>
+  {% else %}
+  <main>
+    {{ content }}
+  </main>
+  {% endif %}
 
   {% include footer.html %}
   
