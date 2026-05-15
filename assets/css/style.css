@@ -127,11 +127,18 @@ div.horizontal .chunk {
   /* flex-direction: column; */
   /* flex-wrap: wrap; */
   /* height:100%; */
-  max-height: 100%;
+  max-height: 100vh;
   overflow-y: auto;
   max-width: 450px;
-  /* background-color: red; */
-  padding:0 4rem 0 2rem;
+  /* background-color: rgb(242, 230, 232); */
+
+  position: relative;
+  top: 5rem;
+  padding:6rem 4rem 0 2rem;
+}
+
+div.horizontal .chunk *:last-child {
+  padding: 0 0 5rem 0;
 }
 
 div.horizontal p {
@@ -220,6 +227,12 @@ video {
     display:block;
     max-width: 100%;
     padding:0;
+    position: static;
+    max-height:fit-content;
   }
-  
+
+  div.horizontal .chunk *:last-child {
+    padding: 0;
+  }
+    
 }
