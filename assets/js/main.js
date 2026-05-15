@@ -1,8 +1,3 @@
-$(".name-btn").click(function(){
-  $(".nav-links").toggleClass('active');
-  $("nav").toggleClass('active');
-});
-
 // --- lazy load
 document.addEventListener("DOMContentLoaded", function() {
   var lazyloadImages;
@@ -60,5 +55,17 @@ $("nav a").each(function(index) {
   if (pathname === $(this).attr('href') ) {
     $(this).addClass("current");
     $(this).attr('aria-current', 'page');
+  }
+});
+
+$(".name-btn").click(function(){
+  $(".nav-links").toggleClass('active');
+  $("nav").toggleClass('active');
+});
+
+$(document).on('click', function(event) {
+  if (!$(event.target).closest('nav').length) {
+    $(".nav-links").removeClass('active');
+    $("nav").removeClass('active');
   }
 });
