@@ -200,6 +200,7 @@ video {
     /* position: relative; */
     display: inline-block;
     padding:.5rem;
+    z-index: 999;
   }
 
   nav.active {
