@@ -3,7 +3,7 @@ layout: page
 style: horizontal
 title:  "Weird Trance Force"
 draft: false
-order: 3
+order: 2
 ---
 
 <div class="horizontal">

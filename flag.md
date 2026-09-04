@@ -2,7 +2,7 @@
 layout: page
 title:  "Flag"
 draft: false
-order: 4
+order: 3
 ---
 
 <img src="{{ site.baseurl }}/assets/img/flag/flag_1.jpg">

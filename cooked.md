@@ -2,7 +2,7 @@
 layout: page
 title:  "Cooked"
 draft: false
-order: 8
+order: 7
 ---
 
 <img src="{{ site.baseurl }}/assets/img/cooked/cooked1.jpg">

@@ -6,7 +6,7 @@ order: 999
 ---
 
 <p>
-alexander august canossa neuscheler<br>
+alexander <i>august</i> canossa neuscheler<br>
 richmond, va<br>
 cv and statement of intent available upon request<br>
 august@mound.info

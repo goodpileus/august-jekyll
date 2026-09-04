@@ -3,7 +3,7 @@ layout: page
 style: horizontal
 title: "Horror Movie"
 draft: false
-order: 7
+order: 6
 ---
 
 <div class="horizontal">

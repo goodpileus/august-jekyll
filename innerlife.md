@@ -2,7 +2,7 @@
 layout: page
 title:  "Innerlife"
 draft: false
-order: 9
+order: 11
 ---
 
 <img src="{{ site.baseurl }}/assets/img/innerlife/innerlife_1.jpg">

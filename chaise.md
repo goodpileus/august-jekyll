@@ -2,7 +2,7 @@
 layout: page
 title:  "Chaise"
 draft: false
-order: 9
+order: 10
 ---
 
 
