@@ -30,7 +30,6 @@ order: 5
     <img src="{{ site.baseurl }}/assets/img/miragers/miragers_21.jpg">
     <img src="{{ site.baseurl }}/assets/img/miragers/miragers_22.jpg">
     <img src="{{ site.baseurl }}/assets/img/miragers/miragers_23.jpg">
-
     <div class="chunk">
         <p>
         Miragers was a group show featuring Valerie Kamen, Kevin Evans, Emmanuela Soria Ruiz, Molly Lieberman, and A. Neuscheler at 6BC Garden in the East Village, NYC. See the <a href="{{ site.baseurl }}/assets/img/miragers/miragers_poster.jpg">POSTER</a>. 

@@ -32,32 +32,32 @@ order: 1
 
     <div class="chunk">
         <p>
-        MELLOW YELLOW FEVER<br><br>
+            MELLOW YELLOW FEVER<br><br>
 
-        269 POWERS ST. BSMT<br>
-        FRIDAY FEBRUARY 5TH, 2016<br>
-        CURATED BY A. NEUSCHELER<br>
-        contact: neuscha@gmail.com<br><br>
+            269 POWERS ST. BSMT<br>
+            FRIDAY FEBRUARY 5TH, 2016<br>
+            CURATED BY A. NEUSCHELER<br>
+            contact: neuscha@gmail.com<br><br>
 
-        ARTISTS in ALPHABETICAL ORDER:<br><br>
+            ARTISTS in ALPHABETICAL ORDER:<br><br>
 
-        NOEMI BILGER<br>
-        EVERETT BROWN<br>
-        DILAN CHEAVACCI<br>
-        RYAN CULLEN<br>
-        KEVIN EVANS<br>
-        ALAN HOLLINS<br>
-        VALERIE KAMEN<br>
-        IAN LANGEHOUGH<br>
-        JIM MARIS<br>
-        A. NEUSCHELER<br>
-        DANA POWELL<br>
-        EMMANUELA RUIZ<br>
-        EMMA SHOOTS<br>
-        MAYA STRAUSS<br>
-        JULES VIGNUTTI<br><br>
+            NOEMI BILGER<br>
+            EVERETT BROWN<br>
+            DILAN CHEAVACCI<br>
+            RYAN CULLEN<br>
+            KEVIN EVANS<br>
+            ALAN HOLLINS<br>
+            VALERIE KAMEN<br>
+            IAN LANGEHOUGH<br>
+            JIM MARIS<br>
+            A. NEUSCHELER<br>
+            DANA POWELL<br>
+            EMMANUELA RUIZ<br>
+            EMMA SHOOTS<br>
+            MAYA STRAUSS<br>
+            JULES VIGNUTTI<br><br>
 
-        <a href="{{ site.baseurl }}/assets/img/myf/myf_flyer.jpg">FLYER</a>
+            <a href="{{ site.baseurl }}/assets/img/myf/myf_flyer.jpg">FLYER</a>
         </p>
     </div>
 
