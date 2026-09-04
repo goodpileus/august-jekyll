@@ -10,7 +10,12 @@ order: 6
     <img src="{{ site.baseurl }}/assets/img/horrormovie/horrormovie_01.jpg">
     <img src="{{ site.baseurl }}/assets/img/horrormovie/horrormovie_02.jpg">
     <img src="{{ site.baseurl }}/assets/img/horrormovie/horrormovie_03.jpg">
-    <img src="{{ site.baseurl }}/assets/img/horrormovie/horrormovie_04.jpg">
+<div class="chunk">
+        <p>
+        Horror Movie Right There On My TV was a solo show at TCB Gallery in Melbourne in 2019
+        </p>
+    </div>    
+<img src="{{ site.baseurl }}/assets/img/horrormovie/horrormovie_04.jpg">
     <img src="{{ site.baseurl }}/assets/img/horrormovie/horrormovie_05.jpg">
     <img src="{{ site.baseurl }}/assets/img/horrormovie/horrormovie_06.jpg">
     <img src="{{ site.baseurl }}/assets/img/horrormovie/horrormovie_07.jpg">
