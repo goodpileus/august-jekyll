@@ -1,8 +1,10 @@
 ---
-layout: page
 title:  "Prancer"
-draft: false
-order: 13
+permalink: /prancer
+
+thread: "b"
+next-page: "cooked"
+order: 2
 ---
 
 <img src="{{ site.baseurl }}/assets/img/prancer/prancer_01.jpg">

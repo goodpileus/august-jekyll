@@ -1,7 +1,10 @@
 ---
-layout: page
 title:  "test"
+permalink: test
 draft: true
+
+thread: "none"
+
 order: 99
 ---
 

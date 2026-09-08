@@ -1,8 +1,10 @@
 ---
-layout: page
 title:  "Cooked"
-draft: false
-order: 7
+permalink: cooked
+
+thread: "b"
+next-page: "young"
+order: 3
 ---
 
 <img src="{{ site.baseurl }}/assets/img/cooked/cooked1.jpg">

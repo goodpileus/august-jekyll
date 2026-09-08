@@ -1,8 +1,10 @@
 ---
-layout: page
 title:  "Water Flowing"
-draft: false
-order: 14
+permalink: /water-flowing
+
+thread: "b"
+next-page: "innerlife"
+order: 5
 ---
 
 

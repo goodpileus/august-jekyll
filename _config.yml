@@ -18,6 +18,19 @@ permalink: /:title/
 # Set encoding to UTF-8
 encoding: utf-8
 
+collections:
+  works:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "works" # a collection in your site, in plural form
+    values:
+      layout: "page"
+      draft: false
+
 # Markdown specs
 markdown: kramdown
 

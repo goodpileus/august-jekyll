@@ -1,9 +1,10 @@
 ---
-layout: page
 style: horizontal
 title:  "Mellow Yellow Fever"
-draft: false
-order: 1
+permalink: /mellow-yellow-fever
+
+thread: "c"
+order: 6
 ---
 
 <div class="horizontal">

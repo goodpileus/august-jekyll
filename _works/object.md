@@ -1,8 +1,10 @@
 ---
-layout: page
 title:  "Object"
-draft: false
-order: 18
+permalink: /object
+
+thread: "a"
+next-page: "sleep"
+order: 2
 ---
 
 <img src="{{ site.baseurl }}/assets/img/object/object_1.jpg">

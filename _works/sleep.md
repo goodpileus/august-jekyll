@@ -1,8 +1,10 @@
 ---
-layout: page
 title:  "Sleep"
-draft: false
-order: 17
+permalink: /sleep
+
+thread: "a"
+next-page: "corn growing"
+order: 3
 ---
 
 <!-- <img src="{{ site.baseurl }}/assets/img/sleep/sleep_1.jpg"> -->

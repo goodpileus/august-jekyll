@@ -1,8 +1,9 @@
 ---
-layout: page
 title:  "Corn Growing"
-draft: false
-order: 16
+permalink: /corn-growing
+
+thread: "a"
+order: 4
 ---
 
 <img src="{{ site.baseurl }}/assets/img/corn/corngrowing_1.jpg">

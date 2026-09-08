@@ -1,8 +1,10 @@
 ---
-layout: page
 title:  "Lady of the Night"
-draft: false
-order: 12
+permalink: lady-of-the-night
+
+thread: "b"
+next-page: "chaise"
+order: 8
 ---
 
 <p>

@@ -1,8 +1,10 @@
 ---
-layout: page
 title:  "About"
-draft: false
-order: 999
+permalink: /about
+always-visible: true
+
+thread: "none"
+order: 1
 ---
 
 <p>

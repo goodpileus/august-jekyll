@@ -1,8 +1,9 @@
 ---
-layout: page
 title:  "Chaise"
-draft: false
-order: 10
+permalink: /chaise
+
+thread: "b"
+order: 9
 ---
 
 

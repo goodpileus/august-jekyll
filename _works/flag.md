@@ -1,8 +1,10 @@
 ---
-layout: page
 title:  "Flag"
-draft: false
-order: 3
+permalink: /flag
+
+thread: "c"
+next-page: "weird trance force"
+order: 4
 ---
 
 <img src="{{ site.baseurl }}/assets/img/flag/flag_1.jpg">

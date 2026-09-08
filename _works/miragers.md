@@ -1,9 +1,11 @@
 ---
-layout: page
-style: horizontal
 title:  "Miragers"
-draft: false
-order: 4
+permalink: /miragers
+style: horizontal
+
+thread: "c"
+next-page: "flag"
+order: 3
 ---
 
 <div class="horizontal">

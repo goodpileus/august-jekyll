@@ -1,8 +1,10 @@
 ---
-layout: page
 title:  "Bettes Group"
-draft: false
-order: 9
+permalink: /bettes-group
+
+thread: "b"
+next-page: "lady of the night"
+order: 7
 ---
 
 <img src="{{ site.baseurl }}/assets/img/bettesgroup/bettesgroup_1.jpg">

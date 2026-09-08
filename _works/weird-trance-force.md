@@ -1,9 +1,11 @@
 ---
-layout: page
-style: horizontal
 title:  "Weird Trance Force"
-draft: false
-order: 2
+permalink: /weird-trance-force
+style: horizontal
+
+thread: "c"
+next-page: "mellow yellow fever"
+order: 5
 ---
 
 <div class="horizontal">

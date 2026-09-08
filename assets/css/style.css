@@ -78,6 +78,14 @@ nav a:hover {
   text-decoration: underline;
 }
 
+nav li {
+  display:none;
+}
+
+nav li.visited, nav li.always-visible {
+  display:block;
+}
+
 nav ul {
   list-style: none;
   padding:0;
@@ -86,10 +94,24 @@ nav ul {
 
 .nav-links {
   display:none;
+  flex-direction: column;
+  align-items: start;
 }
 
 .nav-links.active {
-  display:block;
+  display:flex;
+}
+
+.thread-group {
+  margin-top:.5rem;
+}
+
+.thread-group.first-group {
+  order:-1;
+}
+
+.reset-btn {
+  margin-top:.5rem;
 }
 
 main {

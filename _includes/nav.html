@@ -2,17 +2,38 @@
 
   <button class="name-btn">A.NEUSCHELER</button>
 
-  <ul class="nav-links">
-  {% assign pages = site.pages | sort:"order" | reverse %}
-  {% for page in pages %}
-    {% if page.draft == false %}
-      {% if page.layout == "page" %}
-        <li {% if page.url contains nav.url or page.path contains nav.path %} class="active" aria-current="page" {% endif %}>
-          <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-        </li>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-  </ul>
+  <div class="nav-links">
+    {% assign sorted_works = site.works | sort: 'order' %}
+    {% assign grouped_works = sorted_works | group_by: "thread" | sort: 'name' %}
+    {% for group in grouped_works %}
+      
+      {% if group.name == 'none' %}
+        <div class="thread-group first-group">
+        {% for item in group.items %}
+          {% if item.draft == false %}
+          <li class="{{ item.title | slugify | remove: '-' }}-crumb {% if item.always-visible %}always-visible{% endif %}">
+            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+          </li>
+          {%endif%}
+        {%endfor%}
+        </div>
+      {%endif%}
+      
+      {% if group.name != 'none' %}
+        <div class="thread-group">
+          {% for item in group.items %}
+          {% if item.draft == false %}
+          <li class="{{ item.title | slugify | remove: '-' }}-crumb {% if item.always-visible %}always-visible{% endif %}">
+            <a href="{{ site.baseurl }}{{ item.url }}">
+              {{ item.title }}
+            </a>
+          </li>
+          {%endif%}
+          {%endfor%}
+        </div>
+      {%endif%}
+    {%endfor%}
 
+    <button class="reset-btn">(reset threads)</button>
+  </div>
 </nav>

@@ -1,8 +1,10 @@
 ---
-layout: page
 title:  "WIPP"
-draft: false
-order: 5
+permalink: /wipp
+
+thread: "c"
+next-page: "miragers"
+order: 2
 ---
 
 <p>

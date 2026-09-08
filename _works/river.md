@@ -1,8 +1,11 @@
 ---
-layout: page
 title:  "The River"
-draft: false
-order: 19
+permalink: /river
+always-visible: true
+
+thread: "a"
+next-page: "object"
+order: 1
 ---
 
 <img src="{{ site.baseurl }}/assets/img/river/river1.jpg">

@@ -1,4 +1,41 @@
 
 <script src="{{ site.baseurl }}/assets/js/jquery-4.0.0.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/cookie.js"></script>
 <script src="{{ site.baseurl }}/assets/js/main.js"></script>
 
+<script>
+createCookie('{{ page.title | slugify | remove: "-" }}', true, 30);
+
+{% if page.next %}
+createCookie('{{ page.next-page | slugify | remove: "-"  }}', true, 30);
+{% endif %}
+
+console.log('set {{ page.title | slugify | remove: "-" }} = true \n........');
+
+{% assign pages = site.works %}
+{% for page in pages %}
+  {% if page.layout == "page" %}
+    var {{ page.title | slugify | remove: "-" }} = readCookie('{{ page.title | slugify | remove: "-" }}');
+
+    console.log('{{ page.title | slugify | remove: "-" }} = ' + {{ page.title | slugify | remove: "-" }});
+
+    if({{ page.title | slugify | remove: "-" }}) {
+      $('.{{ page.title | slugify | remove: "-" }}-crumb').addClass('visited');
+    }
+
+  {% endif %}
+{% endfor %}
+
+// clear all cookies
+$(".reset-btn").click(function(){
+  {% assign pages = site.works %}
+  {% for page in pages %}
+    {% if page.layout == "page" %}
+      {% if page.always-visible == null %}
+        eraseCookie('{{ page.title | slugify | remove: "-" }}');
+        $('.{{ page.title | slugify | remove: "-" }}-crumb').hide();
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+});
+</script>

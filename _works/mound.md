@@ -1,8 +1,11 @@
 ---
-layout: page
 title:  "Mound."
-draft: false
-order: 15
+permalink: /mound
+always-visible: true
+
+thread: "b"
+next-page: "prancer"
+order: 1
 ---
 
 <div class="video">
