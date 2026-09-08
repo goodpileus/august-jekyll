@@ -6,7 +6,7 @@
 <script>
 createCookie('{{ page.title | slugify | remove: "-" }}', true, 30);
 
-{% if page.next %}
+{% if page.next-page %}
 createCookie('{{ page.next-page | slugify | remove: "-"  }}', true, 30);
 {% endif %}
 
