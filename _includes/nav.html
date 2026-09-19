@@ -1,5 +1,5 @@
 <nav>
-
+  <a class="reset-btn" title="forget?" href="{{ site.baseurl }}/"></a>
   <button class="name-btn">A.NEUSCHELER</button>
 
   <div class="nav-links">
@@ -20,7 +20,7 @@
       {%endif%}
       
       {% if group.name != 'none' %}
-        <div class="thread-group">
+        <ul class="thread-group">
           {% for item in group.items %}
           {% if item.draft == false %}
           <li class="{{ item.title | slugify | remove: '-' }}-crumb {% if item.always-visible %}always-visible{% endif %}">
@@ -30,10 +30,10 @@
           </li>
           {%endif%}
           {%endfor%}
-        </div>
+        </ul>
       {%endif%}
     {%endfor%}
 
-    <button class="reset-btn">(reset threads)</button>
+    
   </div>
 </nav>
