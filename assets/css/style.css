@@ -116,10 +116,10 @@ nav li.visited, nav li.always-visible {
 
 .thread-group {
   /* margin-top:.5rem; */
-  margin-top:3px;
+  /* margin-top:1px; */
   /* border:1px solid; */
   width:100%;
-  padding:4px 3px 3px 3px;
+  padding:5px 3px 3px 3px;
 }
 
 .thread-group.first-group {
